@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-FT27a5Sz.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Факультет</title>
+    <script type="module" crossorigin src="/assets/main-0iE4E1CD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-ctPABs2x.css">
+  </head>  <body>
+    <header class="mt-[72px] lg:mt-2 mb-2">
+      <div class="container">
+        <div class="fixed top-0 left-0 right-0 lg:top-auto lg:left-auto lg:right-auto lg:static w-full flex items-center gap-12 lg:rounded-2xl px-4 py-3 bg-white shadow-header z-40">
+          <a href="/index.html"><img src="./img/logo.svg" alt=""></a>
+          <nav class="hidden lg:flex items-center gap-6 font-semibold text-heavy-metal">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative">
+              <button class="flex items-center">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-hover:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="absolute hidden w-full rounded-xl group-hover:block">
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-first:rounded-t" href="#">
+                    <span class="font-semibold">Телеграм</span>
+                    <span class="text-gray font-semibold">1,9K</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-last:rounded-b" href="#">
+                    <span class="font-medium">Вконтакте</span>
+                    <span class="text-gray font-medium">217</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="ml-auto hidden lg:block">
+            <button class="btn">Войти</button>
+          </div>
+          <div class="ml-auto lg:hidden">
+            <button id="mobile-menu-btn" class="bg-mercury rounded-3xl w-12 h-12 flex justify-center items-center group relative">
+              <svg class="absolute opacity-100 group-[.active]:opacity-0 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 12H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 5H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 19H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg class="absolute opacity-0 group-[.active]:opacity-100 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4L4 20M4 4L20 20" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                      
+            </button>
+          </div>
+        </div>
+        <div id="mobile-menu-body" class="hidden flex-col gap-4 pt-10 px-4 pb-10 fixed top-16 left-0 right-0 bottom-0 w-full overflow-y-auto bg-gallery z-30">
+          <nav class="flex flex-col gap-4 font-semibold text-[20px]">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative" data-dropdown="" data-body-close="true">
+              <button class="flex items-center" data-dropdown-link="">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="hidden flex-col gap-4 w-full mt-4 rounded-xl group-hover:block first: last:rounded-b" data-dropdown-content="">
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-t" href="#">
+                    <span class="text-heavy-metal font-semibold">Телеграм</span>
+                    <!-- <span class="text-gray font-semibold">1,9K</span> -->
+                  </a>
+                </li>
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-b" href="#">
+                    <span class="text-heavy-metal font-medium">Вконтакте</span>
+                    <!-- <span class="text-gray font-medium">217</span> -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="btn mt-auto">Работодателям</button>
+        </div>
+      </div>
+    </header>    <main class="flex-auto my-6">
+      <div class="container">
+        <h1>Вакансии</h1>
+        <div class="grid grid-cols-1 md:grid-cols-main-grid gap-x-6 my-8">
+          <div class="md:hidden mb-6">
+            <button id="filter-menu-btn" class="flex justify-center items-center gap-4 w-full mb-2 rounded-3xl bg-white p-6 font-bold text-heavy-metal leading-snug">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 4H9.5" stroke="#858585" stroke-width="2" stroke-linecap="round"/>
+                <path d="M7.5 12H15.5" stroke="#858585" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="12.5" cy="4" r="3" stroke="#858585" stroke-width="2"/>
+                <circle cx="4.5" cy="12" r="3" stroke="#858585" stroke-width="2"/>
+              </svg>
+              <span>Фильтры</span>
+            </button>
+          </div>
+          <div>
+            <div>
+              <div class="p-6 mb-2 rounded-3xl bg-white">
+                <div class="text-sm font-medium text-gray">
+                  Сегодня
+                </div>
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-x-6 gap-y-2 my-4">
+                  <a class="text-xl font-bold text-orange-roughy hover:text-fire transition-colors" href="/vacancy.html">Менеджер по развитию сети
+                    футбольных секций</a>
+                  <span class="text-xl font-bold text-heavy-metal whitespace-nowrap">до 250 000 ₽</span>
+                </div>
+                <div class="text-heavy-metal leading-snug">
+                  <div class="my-1">
+                    Hardcore Media Group
+                  </div>
+                  <span>
+                    Офис
+                  </span>
+                  <span>&#8226;</span>
+                  <span>
+                    Санкт-Петербург
+                  </span>
+                </div>
+              </div>
+              <div class="p-6 mb-2 rounded-3xl bg-white">
+                <div class="text-sm font-medium text-gray">
+                  Сегодня
+                </div>
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-x-6 gap-y-2 my-4">
+                  <a class="text-xl font-bold text-orange-roughy hover:text-fire transition-colors" href="/vacancy-empty.html">Инструктор по туризму</a>
+                  <span class="text-xl font-bold text-heavy-metal">от 90 000 ₽</span>
+                </div>
+                <div class="text-heavy-metal leading-snug">
+                  <div class="my-1">
+                    Лига Героев
+                  </div>
+                  <span>
+                    Офис
+                  </span>
+                  <span>&#8226;</span>
+                  <span>
+                    Москва
+                  </span>
+                </div>
+              </div>
+              <div class="p-6 mb-2 rounded-3xl bg-white">
+                <div class="text-sm font-medium text-gray">
+                  Сегодня
+                </div>
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-x-6 gap-y-2 my-4">
+                  <a class="text-xl font-bold text-orange-roughy hover:text-fire transition-colors" href="/vacancy.html">Продюсер YouTube-канала</a>
+                  <span class="text-xl font-bold text-heavy-metal">от 290 000 ₽</span>
+                </div>
+                <div class="text-heavy-metal leading-snug">
+                  <div class="my-1">
+                    Рейтинг букмекеров
+                  </div>
+                  <span>
+                    Гибрид
+                  </span>
+                  <span>&#8226;</span>
+                  <span>
+                    Москва
+                  </span>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn--secondary w-full mt-8">Загрузить еще</button>
+          </div>
+          <div class="hidden md:block">
+            <div class="mb-2 rounded-3xl bg-white overflow-hidden shrink-0 group" data-dropdown="" data-dropdown-body-close="true">
+              <div class="relative flex justify-between items-center rounded-t-3xl p-6 bg-white hover:bg-mercury transition-colors">
+                <div>
+                  <span class="font-bold text-heavy-metal mr-2">Город</span>
+                  <button class="relative z-20 font-semibold text-orange-roughy hover:text-fire transition-colors">Сбросить</button>
+                </div>
+                <div>            
+                  <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L6 7L11 1" stroke="#858585" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <button data-dropdown-link="" class="absolute top-0 left-0 w-full h-full rounded-3xl">
+                </button>
+              </div>
+              <ul class="flex-col gap-2 p-6 border-t border-seashell bg-white rounded-b-3xl h-min max-h-72 overflow-y-auto scrollbar-thin scrollbar-thumb-seashell scrollbar-track-white" data-dropdown-content="" style="display: none;">
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-1"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-1" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-2"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-2" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-3"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-3" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-4"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-4" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-5"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-5" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-6"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-6" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-7"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-7" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-8"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-8" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-9"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-9" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-10"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-10" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-11"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-11" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-12"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-12" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-13"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-13" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-14"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-14" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-15"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-15" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-16"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-16" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-17"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-17" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-18"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-18" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-2 rounded-3xl bg-white overflow-hidden shrink-0 group" data-dropdown="" data-dropdown-body-close="true">
+              <div class="relative flex justify-between items-center rounded-t-3xl p-6 bg-white hover:bg-mercury transition-colors">
+                <div>
+                  <span class="font-bold text-heavy-metal mr-2">Направления</span>
+                  <button class="relative z-20 font-semibold text-orange-roughy hover:text-fire transition-colors hidden">Сбросить</button>
+                </div>
+                <div>            
+                  <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L6 7L11 1" stroke="#858585" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <button data-dropdown-link="" class="absolute top-0 left-0 w-full h-full rounded-3xl">
+                </button>
+              </div>
+              <ul class="flex-col gap-2 p-6 border-t border-seashell bg-white rounded-b-3xl h-min max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-seashell scrollbar-track-white" data-dropdown-content="" style="display: none;">
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-1"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-1" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-2"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-2" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-3"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-3" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-4"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-4" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-5"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-5" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-6"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-6" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-7"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-7" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-8"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-8" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-9"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-9" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-10"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-10" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-11"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-11" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-12"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-12" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-13"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-13" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-14"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-14" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-15"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-15" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-16"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-16" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-17"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-17" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-18"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-18" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="filter-menu-body" class="hidden md:hidden flex-col gap-2 pt-28 pb-10 px-4 fixed top-0 left-0 right-0 bottom-0 w-full overflow-y-auto bg-gallery z-50">
+            <div class="w-full flex items-center justify-center gap-12 lg:rounded-2xl px-4 py-3 fixed top-0 left-0 right-0 bg-white shadow-header">
+              <button id="filter-menu-close" class="absolute left-4 bg-mercury rounded-3xl w-12 h-12 flex justify-center items-center group">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5 3.5L6.5 12.5L15.5 21.5" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>           
+              </button>
+              <div class="flex items-center text-heavy-metal text-xl font-bold leading-7 h-12">Фильтры</div>
+            </div>
+            <div class="rounded-3xl bg-white overflow-hidden shrink-0 group" data-dropdown="" data-dropdown-body-close="true">
+              <div class="relative flex justify-between items-center rounded-t-3xl p-6 bg-white hover:bg-mercury transition-colors">
+                <div>
+                  <span class="font-bold text-heavy-metal mr-2">Город</span>
+                  <button class="relative z-20 font-semibold text-orange-roughy hover:text-fire transition-colors">Сбросить</button>
+                </div>
+                <div>            
+                  <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L6 7L11 1" stroke="#858585" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <button data-dropdown-link="" class="absolute top-0 left-0 w-full h-full rounded-3xl">
+                </button>
+              </div>
+              <ul class="flex-col gap-2 p-6 border-t border-seashell bg-white rounded-b-3xl h-min max-h-72 overflow-y-auto scrollbar-thin scrollbar-thumb-seashell scrollbar-track-white" data-dropdown-content="" style="display: none;">
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-1"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-1" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-2"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-2" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-3"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-3" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-4"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-4" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-5"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-5" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-6"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-6" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-7"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-7" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-8"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-8" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-9"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-9" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-10"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-10" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-11"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-11" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-12"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-12" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-13"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-13" class="w-full cursor-pointer font-medium text-heavy-metal">Белгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-14"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-14" class="w-full cursor-pointer font-medium text-heavy-metal">Екатеринбург</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-15"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-15" class="w-full cursor-pointer font-medium text-heavy-metal">Казань</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-16"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-16" class="w-full cursor-pointer font-medium text-heavy-metal">Москва</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-17"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-17" class="w-full cursor-pointer font-medium text-heavy-metal">Нижний Новгород</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-city-m-18"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-city-m-18" class="w-full cursor-pointer font-medium text-heavy-metal">Санкт-Петербург</label>
+                </li>
+              </ul>
+            </div>
+            <div class="rounded-3xl bg-white overflow-hidden shrink-0 group" data-dropdown="" data-dropdown-body-close="true">
+              <div class="relative flex justify-between items-center rounded-t-3xl p-6 bg-white hover:bg-mercury transition-colors">
+                <div>
+                  <span class="font-bold text-heavy-metal mr-2">Направления</span>
+                  <button class="relative z-20 font-semibold text-orange-roughy hover:text-fire transition-colors hidden">Сбросить</button>
+                </div>
+                <div>            
+                  <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L6 7L11 1" stroke="#858585" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <button data-dropdown-link="" class="absolute top-0 left-0 w-full h-full rounded-3xl">
+                </button>
+              </div>
+              <ul class="flex-col gap-2 p-6 border-t border-seashell bg-white rounded-b-3xl h-min max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-seashell scrollbar-track-white" data-dropdown-content="" style="display: none;">
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-1"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-1" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-2"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-2" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-3"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-3" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-4"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-4" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-5"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-5" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-6"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-6" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-7"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-7" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-8"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-8" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-9"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-9" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-10"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-10" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-11"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-11" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-12"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-12" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-13"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-13" class="w-full cursor-pointer font-medium text-heavy-metal">HR</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-14"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-14" class="w-full cursor-pointer font-medium text-heavy-metal">IT-разработка</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-15"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-15" class="w-full cursor-pointer font-medium text-heavy-metal">Аналитика</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-16"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-16" class="w-full cursor-pointer font-medium text-heavy-metal">Дизайн</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-17"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-17" class="w-full cursor-pointer font-medium text-heavy-metal">Консалтинг</label>
+                </li>
+                <li class="relative flex items-center justify-center">
+                  <input type="checkbox" id="checkbox-m-18"
+                    class="peer relative h-4 w-4 mr-2 shrink-0 appearance-none rounded border border-alto after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-[url('/img/check.svg')] after:bg-[length:10px_8px] after:bg-center after:bg-no-repeat checked:bg-heavy-metal hover:ring hover:ring-seashell focus:outline-none">
+                  <label for="checkbox-m-18" class="w-full cursor-pointer font-medium text-heavy-metal">Маркетинг</label>
+                </li>
+              </ul>
+            </div>
+            <button class="btn mt-auto shrink-0">Показать</button>
+          </div>
+        </div>
+      </div>
+    </main>    <footer class="flex-none bg-heavy-metal">
+      <div class="container">
+        <div class="py-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 pb-6 mb-6 border-b border-mine-shaft leading-snug">
+            <div>
+              <div class="text-sm font-semibold text-gray">Факультет</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="/index.html">Вакансии</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Продукты</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/blog.html">Блог</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/about.html">О нас</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Социальные сети</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Телеграм</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Вконтакте</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Контакты</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="mailto:ak@fchr.ru">ak@fchr.ru</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="tel:+70000000000">+7 000 000-00-00</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Правовая информация</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Правила сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-y-3 items-center sm:items-start justify-between">
+            <span class="font-semibold text-gray">© 2024 Факультет</span>
+            <div>
+              <span class="font-semibold text-gray">Дизайн:</span>
+              <a class="font-semibold text-white" href="https://alexserezhnikov.ru">alexserezhnikov.ru</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>    
+  </body>
+</html>

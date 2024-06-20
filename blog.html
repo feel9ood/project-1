@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-FT27a5Sz.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Факультет</title>
+    <script type="module" crossorigin src="/assets/main-0iE4E1CD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-ctPABs2x.css">
+  </head>  <body>
+    <header class="mt-[72px] lg:mt-2 mb-2">
+      <div class="container">
+        <div class="fixed top-0 left-0 right-0 lg:top-auto lg:left-auto lg:right-auto lg:static w-full flex items-center gap-12 lg:rounded-2xl px-4 py-3 bg-white shadow-header z-40">
+          <a href="/index.html"><img src="./img/logo.svg" alt=""></a>
+          <nav class="hidden lg:flex items-center gap-6 font-semibold text-heavy-metal">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative">
+              <button class="flex items-center">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-hover:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="absolute hidden w-full rounded-xl group-hover:block">
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-first:rounded-t" href="#">
+                    <span class="font-semibold">Телеграм</span>
+                    <span class="text-gray font-semibold">1,9K</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-last:rounded-b" href="#">
+                    <span class="font-medium">Вконтакте</span>
+                    <span class="text-gray font-medium">217</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="ml-auto hidden lg:block">
+            <button class="btn">Войти</button>
+          </div>
+          <div class="ml-auto lg:hidden">
+            <button id="mobile-menu-btn" class="bg-mercury rounded-3xl w-12 h-12 flex justify-center items-center group relative">
+              <svg class="absolute opacity-100 group-[.active]:opacity-0 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 12H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 5H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 19H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg class="absolute opacity-0 group-[.active]:opacity-100 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4L4 20M4 4L20 20" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                      
+            </button>
+          </div>
+        </div>
+        <div id="mobile-menu-body" class="hidden flex-col gap-4 pt-10 px-4 pb-10 fixed top-16 left-0 right-0 bottom-0 w-full overflow-y-auto bg-gallery z-30">
+          <nav class="flex flex-col gap-4 font-semibold text-[20px]">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative" data-dropdown="" data-body-close="true">
+              <button class="flex items-center" data-dropdown-link="">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="hidden flex-col gap-4 w-full mt-4 rounded-xl group-hover:block first: last:rounded-b" data-dropdown-content="">
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-t" href="#">
+                    <span class="text-heavy-metal font-semibold">Телеграм</span>
+                    <!-- <span class="text-gray font-semibold">1,9K</span> -->
+                  </a>
+                </li>
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-b" href="#">
+                    <span class="text-heavy-metal font-medium">Вконтакте</span>
+                    <!-- <span class="text-gray font-medium">217</span> -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="btn mt-auto">Работодателям</button>
+        </div>
+      </div>
+    </header>    <main class="flex-auto my-6">
+      <div class="container">
+        <h1 class="mb-8">Блог</h1>
+        <div class="filter-section mb-2">
+          <div id="filterGroup" class="swiper slider-filter mb-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="">Все</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="HR">HR</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="IT_DEV">IT-разработка</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="ANALYTICS">Аналитика</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="DESIGN">Дизайн</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="CONSULTING">Консалтинг</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="MARKETING">Маркетинг</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="SALES">Продажи</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="PRODUCING">Продюсирование</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="DESIGN">Дизайн</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="CONSULTING">Консалтинг</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="MARKETING">Маркетинг</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="SALES">Продажи</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-filter-item="">Продюсирование</button>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="sort-section mb-8">
+          <div id="sortGroup" class="swiper slider-filter mb-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-sort-item="NEW">Сначала новое</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-sort-item="OLD">Сначала старое</button>
+              </div>
+              <div class="swiper-slide">
+                <button class="btn btn--secondary" data-sort-item="POP">Популярное</button>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="post-section mb-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="relative bg-white rounded-3xl overflow-hidden">
+              <a href="/blog-article.html">
+                <img class="w-full h-[200px] object-cover" src="/img-content/blog-img_1.jpg" alt="">
+              </a>
+              <div class="p-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <span class="text-gray text-sm font-medium">Сегодня</span>
+                  <div class="flex items-center gap-1">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0174511 6.1915C0.0484285 6.33404 0.103766 6.42646 0.21444 6.6113C1.12902 8.13871 3.85134 12 8 12C12.1487 12 14.871 8.13871 15.7856 6.6113L15.7856 6.61129C15.8962 6.42646 15.9516 6.33404 15.9825 6.1915C16.0058 6.08443 16.0058 5.91557 15.9825 5.8085C15.9516 5.66596 15.8962 5.57354 15.7856 5.38871L15.7856 5.3887C14.871 3.86129 12.1487 0 8 0C3.85134 0 1.12902 3.86129 0.21444 5.3887C0.103766 5.57354 0.0484285 5.66596 0.0174511 5.8085C-0.00581704 5.91557 -0.00581704 6.08443 0.0174511 6.1915ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z" fill="#858585"/>
+                    </svg>
+                    <span class="text-gray text-sm font-medium">
+                      4К
+                    </span>
+                  </div>
+                </div>
+                <div class="text-heavy-metal">
+                  <a href="/blog-article.html">
+                    <p class="text-xl font-bold line-clamp-2 mb-4">Мы искренне горим своим делом. Каждому члену нашей команды хочется приложить максимум усилий для развития любительского массового спорта по всей стране.</p>
+                  </a>
+                  <p class="text-base font-medium line-clamp-2 mb-4">Именно наши проекты послужили примером того, как должны организовываться и проводиться спортивные массовые мероприятия для всех аудиторий на самых разных локациях.</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative bg-white rounded-3xl overflow-hidden">
+              <a href="/blog-article.html">
+                <img class="w-full h-[200px] object-cover" src="/img-content/blog-img_1.jpg" alt="">
+              </a>
+              <div class="p-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <span class="text-gray text-sm font-medium">Сегодня</span>
+                  <div class="flex items-center gap-1">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0174511 6.1915C0.0484285 6.33404 0.103766 6.42646 0.21444 6.6113C1.12902 8.13871 3.85134 12 8 12C12.1487 12 14.871 8.13871 15.7856 6.6113L15.7856 6.61129C15.8962 6.42646 15.9516 6.33404 15.9825 6.1915C16.0058 6.08443 16.0058 5.91557 15.9825 5.8085C15.9516 5.66596 15.8962 5.57354 15.7856 5.38871L15.7856 5.3887C14.871 3.86129 12.1487 0 8 0C3.85134 0 1.12902 3.86129 0.21444 5.3887C0.103766 5.57354 0.0484285 5.66596 0.0174511 5.8085C-0.00581704 5.91557 -0.00581704 6.08443 0.0174511 6.1915ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z" fill="#858585"/>
+                    </svg>
+                    <span class="text-gray text-sm font-medium">
+                      4К
+                    </span>
+                  </div>
+                </div>
+                <div class="text-heavy-metal">
+                  <a href="/blog-article.html">
+                    <p class="text-xl font-bold line-clamp-2 mb-4">Мы искренне горим своим делом. Каждому члену нашей команды хочется приложить максимум усилий для развития любительского массового спорта по всей стране.</p>
+                  </a>
+                  <p class="text-base font-medium line-clamp-2 mb-4">Именно наши проекты послужили примером того, как должны организовываться и проводиться спортивные массовые мероприятия для всех аудиторий на самых разных локациях.</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative bg-white rounded-3xl overflow-hidden">
+              <a href="/blog-article.html">
+                <img class="w-full h-[200px] object-cover" src="/img-content/blog-img_1.jpg" alt="">
+              </a>
+              <div class="p-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <span class="text-gray text-sm font-medium">Сегодня</span>
+                  <div class="flex items-center gap-1">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0174511 6.1915C0.0484285 6.33404 0.103766 6.42646 0.21444 6.6113C1.12902 8.13871 3.85134 12 8 12C12.1487 12 14.871 8.13871 15.7856 6.6113L15.7856 6.61129C15.8962 6.42646 15.9516 6.33404 15.9825 6.1915C16.0058 6.08443 16.0058 5.91557 15.9825 5.8085C15.9516 5.66596 15.8962 5.57354 15.7856 5.38871L15.7856 5.3887C14.871 3.86129 12.1487 0 8 0C3.85134 0 1.12902 3.86129 0.21444 5.3887C0.103766 5.57354 0.0484285 5.66596 0.0174511 5.8085C-0.00581704 5.91557 -0.00581704 6.08443 0.0174511 6.1915ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z" fill="#858585"/>
+                    </svg>
+                    <span class="text-gray text-sm font-medium">
+                      4К
+                    </span>
+                  </div>
+                </div>
+                <div class="text-heavy-metal">
+                  <a href="/blog-article.html">
+                    <p class="text-xl font-bold line-clamp-2 mb-4">Мы искренне горим своим делом. Каждому члену нашей команды хочется приложить максимум усилий для развития любительского массового спорта по всей стране.</p>
+                  </a>
+                  <p class="text-base font-medium line-clamp-2 mb-4">Именно наши проекты послужили примером того, как должны организовываться и проводиться спортивные массовые мероприятия для всех аудиторий на самых разных локациях.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn--secondary w-full mt-8">Загрузить еще</button>
+      </div>
+    </main>    <footer class="flex-none bg-heavy-metal">
+      <div class="container">
+        <div class="py-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 pb-6 mb-6 border-b border-mine-shaft leading-snug">
+            <div>
+              <div class="text-sm font-semibold text-gray">Факультет</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="/index.html">Вакансии</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Продукты</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/blog.html">Блог</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/about.html">О нас</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Социальные сети</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Телеграм</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Вконтакте</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Контакты</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="mailto:ak@fchr.ru">ak@fchr.ru</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="tel:+70000000000">+7 000 000-00-00</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Правовая информация</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Правила сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-y-3 items-center sm:items-start justify-between">
+            <span class="font-semibold text-gray">© 2024 Факультет</span>
+            <div>
+              <span class="font-semibold text-gray">Дизайн:</span>
+              <a class="font-semibold text-white" href="https://alexserezhnikov.ru">alexserezhnikov.ru</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>    
+  </body>
+</html>

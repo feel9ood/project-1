@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-FT27a5Sz.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Факультет</title>
+    <script type="module" crossorigin src="/assets/main-0iE4E1CD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-ctPABs2x.css">
+  </head>  <body>
+    <header class="mt-[72px] lg:mt-2 mb-2">
+      <div class="container">
+        <div class="fixed top-0 left-0 right-0 lg:top-auto lg:left-auto lg:right-auto lg:static w-full flex items-center gap-12 lg:rounded-2xl px-4 py-3 bg-white shadow-header z-40">
+          <a href="/index.html"><img src="./img/logo.svg" alt=""></a>
+          <nav class="hidden lg:flex items-center gap-6 font-semibold text-heavy-metal">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative">
+              <button class="flex items-center">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-hover:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="absolute hidden w-full rounded-xl group-hover:block">
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-first:rounded-t" href="#">
+                    <span class="font-semibold">Телеграм</span>
+                    <span class="text-gray font-semibold">1,9K</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="bg-white hover:bg-seashell py-2 px-4 block whitespace-no-wrap group-last:rounded-b" href="#">
+                    <span class="font-medium">Вконтакте</span>
+                    <span class="text-gray font-medium">217</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="ml-auto hidden lg:block">
+            <button class="btn">Войти</button>
+          </div>
+          <div class="ml-auto lg:hidden">
+            <button id="mobile-menu-btn" class="bg-mercury rounded-3xl w-12 h-12 flex justify-center items-center group relative">
+              <svg class="absolute opacity-100 group-[.active]:opacity-0 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 12H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 5H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 19H2" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg class="absolute opacity-0 group-[.active]:opacity-100 group-[.active]:rotate-180 transition-all" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4L4 20M4 4L20 20" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                      
+            </button>
+          </div>
+        </div>
+        <div id="mobile-menu-body" class="hidden flex-col gap-4 pt-10 px-4 pb-10 fixed top-16 left-0 right-0 bottom-0 w-full overflow-y-auto bg-gallery z-30">
+          <nav class="flex flex-col gap-4 font-semibold text-[20px]">
+            <a href="/index.html">Вакансии</a>
+            <a href="#">Продукты</a>
+            <a href="/blog.html">Блог</a>
+            <a href="/about.html">О нас</a>
+            <div class="group relative" data-dropdown="" data-body-close="true">
+              <button class="flex items-center" data-dropdown-link="">
+                <span class="mr-2">Социальные сети</span>
+                <svg class="transition-transform duration-100 group-[.active]:rotate-180" width="12" height="10" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_2)">
+                  <path d="M7.49377 1.48559L4.00618 4.5L0.493834 1.51447" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4_2">
+                  <rect width="8" height="4" fill="white" transform="translate(8.00821 4.98349) rotate(179.764)"/>
+                  </clipPath>
+                  </defs>
+                </svg>                         
+              </button>
+              <ul class="hidden flex-col gap-4 w-full mt-4 rounded-xl group-hover:block first: last:rounded-b" data-dropdown-content="">
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-t" href="#">
+                    <span class="text-heavy-metal font-semibold">Телеграм</span>
+                    <!-- <span class="text-gray font-semibold">1,9K</span> -->
+                  </a>
+                </li>
+                <li class="pl-4">
+                  <a class="block whitespace-no-wrap rounded-b" href="#">
+                    <span class="text-heavy-metal font-medium">Вконтакте</span>
+                    <!-- <span class="text-gray font-medium">217</span> -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="btn mt-auto">Работодателям</button>
+        </div>
+      </div>
+    </header>    <main class="flex-auto my-6">
+      <div class="container">
+        <h1 class="mb-4">Как компании повышают производительность труда, чтобы бороться с дефицитом персонала</h1>
+        <div class="flex gap-4">
+          <span class="text-gray text-base">13 дек</span>
+          <span class="text-gray text-base">Маркетинг</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-main-grid gap-x-6 my-8">
+          <div>
+            <div class="img-content mb-8">
+              <img src="/img-content/blog-img_1.jpg">
+            </div>
+            <div class="text-lg leading-snug font-medium mb-6">
+              <p>Ситуация на рынке труда сейчас крайне непростая, многие компании даже описывают её как кризисную. Если ещё
+                год назад многие рабочие специальности считались массовыми (рекрутер мог закрыть вакансию в среднем за две
+                недели), то сейчас иногда требуется до тридцати касаний для закрытия вакансии электрослесаря. По некоторым
+                должностям <a class="text-orange-roughy hover:text-fire transition-colors" href="#">спрос почти в два раза превышает предложение</a>.</p>
+            </div>
+            <div class="text-content">
+              <p>Бизнес может бороться с кадровым голодом тремя путями:</p>
+              <ol>
+                <li>Работать над повышением привлекательности EVP.</li>
+                <li>Работать над стратегией и инструментами привлечения персонала.</li>
+                <li>Заниматься повышением производительности труда на рабочих местах.</li>
+              </ol>
+    
+              <p>Первые два варианта требуют времени и инвестиций для проведения качественного анализа рынка и разработки
+                стратегии — это «игра вдолгую», которую может себе позволить не каждая компания. Поэтому для многих
+                организаций условием выживания на рынке труда становится курс на повышение производительности.</p>
+    
+              <p>Каждый день мы на шаг ближе к достижению собственных целей: вовлечь как можно больше людей в спорт по всей
+                стране, привлечь внимание к развитию спортивной инфраструктуры и стать примером для других не только в
+                России, но и в мире.</p>
+              
+              <div class="block md:hidden max-w-[356px] mb-6">
+                <div class="mb-4">
+                  <img class="w-full h-[200px] object-cover" src="/img-content/integration.png" alt="">
+                </div>
+                <div>
+                  <div class="text-base leading-tight font-bold mb-2">Заголовок интеграции</div>
+                  <div class="text-base leading-tight font-mediun text-gray">Немного текста о интеграции</div>
+                </div>
+              </div>
+    
+              <h3>Как найти потенциал для повышения производительности труда</h3>
+    
+              <p>В процессах повышения производительности труда есть соблазн начать работать сразу с уровнем людей:
+                сокращать, менять и т. д. Но, как правило, дело не только и не столько в людях. Гораздо чаще есть другие
+                причины низкой эффективности: неподходящая для конкретной деятельности организационная структура (например,
+                нужна строгая иерархия, а пытаются строить модную «бирюзу»); есть сбои в организационных процессах или
+                межфункциональном взаимодействии; стратегия компании изменилась, а инициативы и операционная модель
+                выстроены под прошлую стратегию. Вот почему так важно смотреть на все уровни, начиная с самого верхнего.</p>
+    
+              <h4>Как найти потенциал для повышения производительности труда</h4>
+    
+              <p>Когда стало более или менее понятно, на какие процессы нужно смотреть, возникает вопрос выбора метода,
+                который позволит проанализировать информацию и найти потенциал для повышения производительности. Все методы
+                можно разделить на 4 группы:</p>
+              
+              <ol>
+                <li>Оценочные методы (оценка руководителями, опросы, оценка внешними экспертами).</li>
+                <li>Методы верхнеуровневой статистики, или факторное нормирование (нормирование на основе справочников, разные виды бенчмаркинга — внешний, внутренний, ретроспективный).</li>
+                <li>Методы наблюдения (моментные наблюдения, хронометраж).</li>
+                <li>Методы цифрового наблюдения (Process Mining — оценка цифровых следов, видеорегистраторы, датчики, 3D-моделирование операций сотрудников).</li>
+              </ol>
+            </div>
+            <div class="flex gap-4">
+              <button class="btn btn--like btn--round group" data-like-item>
+                <svg class="group-[.like]:hidden w-[22px] h-[22px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 21V10H8L10.5442 2.36754C10.8164 1.55086 11.5807 1 12.4415 1H13C14.1046 1 15 1.89543 15 3V8H17.7675C20.105 8 22 9.89496 22 12.2325C22 12.74 21.9087 13.2434 21.7305 13.7186L19.4867 19.7022C19.1939 20.4829 18.4477 21 17.614 21H2Z" stroke="#858585" stroke-width="2" stroke-linejoin="round"/>
+                  <path d="M6 21L6 10" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="hidden group-[.like]:block w-[22px] h-[22px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4415 0C11.1502 0 10.0038 0.82629 9.59547 2.05132L7.27924 9H7L7 22H17.614C18.8645 22 19.9839 21.2243 20.423 20.0534L22.6668 14.0698C22.8872 13.4823 23 12.8599 23 12.2325C23 9.34267 20.6573 7 17.7675 7H16V3C16 1.34315 14.6569 0 13 0H12.4415ZM5 22L5 9H2C1.44772 9 1 9.44771 1 10V21C1 21.5523 1.44772 22 2 22H5Z" fill="#858585"/>
+                </svg>                           
+              </button>
+              <div class="relative w-full sm:w-auto" data-dropdown="" data-body-close="true">
+                <button class="btn btn--secondary w-full leading-snug" data-dropdown-link="">Поделиться</button>
+                <ul class="absolute hidden top-full flex-col mt-2 bg-white w-full min-w-[211px] font-semibold leading-snug rounded-lg shadow-dropdown" data-dropdown-content="" style="display: none;">
+                  <li class="px-3 py-2 first:rounded-t-lg last:rounded-b-lg hover:bg-seashell">
+                    <button href="" class="flex items-center gap-2 group" data-copy-code="" data-code="https://youtu.be/dQw4w9WgXcQ?si=EbMFteCuGEq-vEOs">
+                      <svg class="group-[.copied]:hidden" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.53553 12.8198L7.46447 13.8909C5.98563 15.3697 3.58796 15.3697 2.10913 13.8909C0.630291 12.412 0.630291 10.0144 2.10913 8.53553L3.18019 7.46447M12.8198 8.53553L13.8909 7.46447C15.3697 5.98563 15.3697 3.58796 13.8909 2.10913C12.412 0.630291 10.0144 0.630291 8.53553 2.10913L7.46447 3.18019M5.34924 10.6507L10.6508 5.34923" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <span class="group-[.copied]:hidden">Скопировать ссылку</span>
+                      <svg class="hidden group-[.copied]:block" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7.54545L6.13333 13L15 3" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>                    
+                      <span class="text-gray hidden group-[.copied]:block">Скопировано</span>
+                    </button>
+                  </li>
+                  <li class="px-3 py-2 first:rouded-t-lg last:rounded-b-lg hover:bg-seashell">
+                    <a href="" class="flex items-center gap-2">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.71451 13C3.24792 13 0.129919 9.62162 0 4H2.73829C2.82823 8.12613 4.84692 9.87387 6.44592 10.2342V4H9.02441V7.55856C10.6034 7.40541 12.2622 5.78378 12.8218 4H15.4003C14.9705 6.1982 13.1717 7.81982 11.8925 8.48649C13.1717 9.02703 15.2205 10.4414 16 13H13.1617C12.5521 11.2883 11.0332 9.96396 9.02441 9.78378V13H8.71451Z" fill="#858585"/>
+                      </svg>                    
+                      <span>ВКонтакте</span>
+                    </a>
+                  </li>
+                  <li class="px-3 py-2 first:rouded-t-lg last:rounded-b-lg hover:bg-seashell">
+                    <a href="" class="flex items-center gap-2">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.96243 6.73543C5.72052 5.18307 8.2265 4.15967 9.48037 3.66521C13.0604 2.25343 13.8043 2.00818 14.2892 2.00009C14.3959 1.99831 14.6343 2.02336 14.7887 2.14219C14.9192 2.24252 14.955 2.37805 14.9722 2.47318C14.9894 2.56831 15.0108 2.785 14.9938 2.95433C14.7998 4.88695 13.9603 9.57691 13.5332 11.7415C13.3525 12.6574 12.9967 12.9645 12.6522 12.9945C11.9036 13.0599 11.3351 12.5255 10.6101 12.0749C9.47546 11.3697 8.83448 10.9308 7.73315 10.2427C6.46037 9.44746 7.28546 9.0104 8.01082 8.29612C8.20064 8.10919 11.4991 5.26471 11.5629 5.00668C11.5709 4.9744 11.5783 4.85411 11.503 4.79059C11.4276 4.72707 11.3163 4.74879 11.236 4.76606C11.1223 4.79055 9.3097 5.9264 5.79841 8.1736C5.28392 8.50854 4.81791 8.67174 4.40039 8.66319C3.9401 8.65376 3.05469 8.41644 2.39648 8.21359C1.58916 7.96478 0.947519 7.83324 1.00339 7.41069C1.03249 7.1906 1.35217 6.96551 1.96243 6.73543Z" fill="#858585"/>
+                      </svg>                    
+                      <span>Telegram</span>
+                    </a>
+                  </li>
+                  <li class="px-3 py-2 first:rouded-t-lg last:rounded-b-lg hover:bg-seashell">
+                    <a href="" class="flex items-center gap-2">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 1C4.13425 1 1 4.13425 1 8C1 9.3132 1.36887 10.5375 1.99805 11.5877L1.06266 15L4.54785 14.0851C5.56712 14.6646 6.74379 15 8 15C11.8657 15 15 11.8657 15 8C15 4.13425 11.8657 1 8 1ZM5.604 4.7347C5.71775 4.7347 5.83463 4.73401 5.93555 4.73926C6.06038 4.74217 6.19625 4.75132 6.32633 5.0389C6.48092 5.38073 6.81751 6.23828 6.86068 6.3252C6.90384 6.41211 6.93443 6.5145 6.87435 6.62826C6.81718 6.74492 6.78745 6.81553 6.70345 6.91878C6.61653 7.01912 6.5213 7.14373 6.44255 7.21956C6.35563 7.30648 6.26588 7.40178 6.36621 7.57503C6.46654 7.74828 6.81499 8.31624 7.33008 8.77474C7.99216 9.36624 8.55078 9.54801 8.72461 9.63493C8.89844 9.72184 8.99911 9.7083 9.09945 9.59163C9.2027 9.47788 9.53307 9.08757 9.64974 8.91374C9.76349 8.7399 9.87961 8.76998 10.0371 8.82715C10.1969 8.88432 11.0493 9.3042 11.2231 9.39111C11.397 9.47803 11.5109 9.52105 11.5547 9.59163C11.5996 9.66455 11.5996 10.0117 11.4556 10.4165C11.3115 10.8208 10.604 11.2117 10.2866 11.2391C9.96637 11.2688 9.66749 11.383 8.20508 10.8073C6.44108 10.1125 5.32862 8.30579 5.2417 8.18913C5.15478 8.07538 4.53532 7.24978 4.53532 6.39811C4.53532 5.54353 4.98338 5.125 5.1403 4.95117C5.30013 4.77734 5.48734 4.7347 5.604 4.7347Z" fill="#858585"/>
+                      </svg>                    
+                      <span>WhatsApp</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <button class="btn btn--secondary">Поделиться</button> -->
+            </div>
+          </div>
+          <div class="relative">
+            <div class="hidden md:block absolute top-1/2 max-w-[356px] mb-6">
+              <div class="mb-4 rounded-3xl overflow-hidden">
+                <img class="w-full h-[200px] object-cover" src="/img-content/integration.png" alt="">
+              </div>
+              <div>
+                <div class="text-base leading-tight font-bold mb-2">Заголовок интеграции</div>
+                <div class="text-base leading-tight font-mediun text-gray">Немного текста о интеграции</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>    <footer class="flex-none bg-heavy-metal">
+      <div class="container">
+        <div class="py-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 pb-6 mb-6 border-b border-mine-shaft leading-snug">
+            <div>
+              <div class="text-sm font-semibold text-gray">Факультет</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="/index.html">Вакансии</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Продукты</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/blog.html">Блог</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="/about.html">О нас</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Социальные сети</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Телеграм</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="#">Вконтакте</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Контакты</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="mailto:ak@fchr.ru">ak@fchr.ru</a></li>
+                <li class="py-2"><a class="font-semibold text-white" href="tel:+70000000000">+7 000 000-00-00</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray">Правовая информация</div>
+              <ul class="py-4">
+                <li class="py-2"><a class="font-semibold text-white" href="#">Правила сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-y-3 items-center sm:items-start justify-between">
+            <span class="font-semibold text-gray">© 2024 Факультет</span>
+            <div>
+              <span class="font-semibold text-gray">Дизайн:</span>
+              <a class="font-semibold text-white" href="https://alexserezhnikov.ru">alexserezhnikov.ru</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>    
+  </body>
+</html>
